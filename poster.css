@@ -1,0 +1,111 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: #888;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.poster {
+  width: 1024px;
+  height: 1024px;
+  margin: 0 auto;
+  background: #f4f1ea;
+  display: flex;
+  flex-direction: column;
+  padding: 18px 18px 14px;
+}
+
+.masthead {
+  background: #10273f;
+  color: #fff;
+  text-align: center;
+  padding: 18px 20px 16px;
+  border-bottom: 5px solid #c9a227;
+}
+
+.masthead-top {
+  font-size: 17px;
+  letter-spacing: 7px;
+  color: #c9a227;
+  font-weight: bold;
+}
+
+.masthead h1 {
+  font-size: 52px;
+  line-height: 1.1;
+  letter-spacing: 1px;
+  margin: 8px 0 6px;
+  font-weight: 900;
+}
+
+.masthead-sub {
+  font-size: 19px;
+  color: #d6e2ee;
+  font-style: italic;
+}
+
+.grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 14px;
+  padding: 14px 0;
+}
+
+.panel {
+  background: #fff;
+  border: 1px solid #d5d0c4;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.accent { height: 6px; flex: none; }
+
+.art {
+  width: 100%;
+  height: 158px;
+  flex: none;
+  display: block;
+}
+
+.tag {
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  padding: 12px 16px 0;
+}
+
+.panel h2 {
+  font-size: 28px;
+  line-height: 1.16;
+  font-weight: 900;
+  color: #14202e;
+  padding: 6px 16px 0;
+}
+
+.panel p {
+  font-size: 17px;
+  line-height: 1.35;
+  color: #4a5568;
+  padding: 8px 16px 12px;
+}
+
+.src {
+  margin-top: auto;
+  padding: 0 16px 13px;
+  font-size: 12.5px;
+  letter-spacing: 0.5px;
+  color: #8a94a6;
+}
+
+.source {
+  flex: none;
+  background: #10273f;
+  color: #b9c9da;
+  font-size: 14px;
+  text-align: center;
+  padding: 11px 10px;
+  letter-spacing: 0.4px;
+}
